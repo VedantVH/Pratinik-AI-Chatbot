@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Is anyone there?",
+        "Hi there", "Greetings", "What's up", "Good afternoon", "Good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to Pratinik Infotech Support. How can I assist you today?",
+        "Hi there! I'm here to help. What can I do for you?",
+        "Hey! Great to see you. How may I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "I'm leaving", "Take care",
+        "Quit", "Exit", "Have a good day", "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "See you later! Don't hesitate to reach out if you need help.",
+        "Take care! We're always here if you need us."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?", "Order status", "Track my order",
+        "When will my order arrive?", "Order tracking", "Check my order",
+        "My order hasn't arrived", "What happened to my order?",
+        "Order number", "Delivery update"
+      ],
+      "responses": [
+        "I can help you track your order! Please share your order ID and I'll look it up.",
+        "To check your order status, please provide your order number.",
+        "Let me pull up your order details. Could you share your order ID?"
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "I want a refund", "Refund my order", "How to get refund",
+        "Money back", "Cancel order and refund", "Refund policy",
+        "Return my product", "I want to return", "How do returns work",
+        "Refund request", "Get my money back"
+      ],
+      "responses": [
+        "I'm sorry to hear that! Refunds are processed within 5-7 business days. Please share your order ID.",
+        "We want you to be happy! Our refund policy allows returns within 30 days. Share your order ID to proceed.",
+        "Of course! I'll initiate the refund process. Please provide your order number."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint", "This is unacceptable", "Bad service",
+        "I'm not happy", "Product is broken", "Damaged item received",
+        "Wrong item delivered", "This is terrible", "I'm very disappointed",
+        "Poor quality product", "File a complaint"
+      ],
+      "responses": [
+        "I sincerely apologize for this experience! Let me escalate this to our team immediately.",
+        "I'm really sorry to hear this. Your feedback matters and we'll resolve this right away.",
+        "That's not the experience we want for you. Let me connect you with a senior agent."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help", "Contact support", "Talk to an agent",
+        "Human support", "Speak to someone", "Technical help",
+        "I need assistance", "Can I speak to a person?", "Help me please",
+        "I need a representative", "Escalate my issue"
+      ],
+      "responses": [
+        "I'm connecting you with a live agent. Please hold on for a moment.",
+        "Let me transfer you to a human support specialist right away.",
+        "Of course! I'll escalate this to our support team. Average wait time is 2-3 minutes."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Tell me about your products", "What do you sell?", "Product details",
+        "Product information", "What services do you offer?", "What products are available?",
+        "Catalog", "Product list", "Features", "Product specifications"
+      ],
+      "responses": [
+        "We offer a wide range of tech products and software solutions! Visit our catalog for details.",
+        "Pratinik Infotech provides enterprise software, cloud solutions, and IT services.",
+        "We have great products! Check our website or I can help you find something specific."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Payment failed", "How to pay?", "Payment methods",
+        "I can't complete payment", "Credit card issue", "Payment options",
+        "Do you accept UPI?", "Invoice", "Billing issue", "Payment not processing"
+      ],
+      "responses": [
+        "We accept Credit/Debit cards, UPI, Net Banking, and Wallets. Need help with a specific payment issue?",
+        "Payment failed? Let me check that for you! Please share your transaction ID.",
+        "We offer multiple secure payment options. What's the specific issue you're facing?"
+      ]
+    }
+  ]
+}
